@@ -5,10 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
 </head>
 <body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Tải Shoppe tại đây
+
+                            <!--Header qr code-->
+                            <div class="header__qr">
+                                <img src="./assets/img/QR__code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Google play.png" alt="Google Play" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/App Store.png" alt="App Store" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
     
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/332d35ed3cf39635fdee054131fa6da8_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tủ đồ Mini giảm giá cực sốc!!!!</span>
+                                                <span class="header__notify-descriotion">Tủ đồ mini giảm giá từ 95k còn 70k</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/b00323481c955da9de5e4b143eec73b2_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">NHẬN ĐẾN 20K XU KHI GIỚI THIỆU BẠN BÈ</span>
+                                                <span class="header__notify-descriotion">🔥 Cùng tham gia mua sắm tại Shopee
+                                                    Nhận đến 20K xu 🌈 khi giới thiệu thành công
+                                                    Bạn mới nhận Voucher 50K 🌀 mua sắm
+                                                    🌟 Mau mau tham gia ngay!</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="	https://cf.shopee.vn/file/93341cc6e1947d4a70095036e4823787_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">GIẢM ĐẾN 50% SIÊU SALE CÔNG NGHỆ</span>
+                                                <span class="header__notify-descriotion">Bếp từ, nồi cơm 🛒 tai nghe, chuột không dây...
+                                                    Thêm Voucher hoàn đến 10K Xu 💥 đơn từ 50K
+                                                    Một click thích mê 🎊 mời bạn vào mua</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/572d053c119f9ef85e597f0282a98d2d_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Giao kiện hàng thành công</span>
+                                                <span class="header__notify-descriotion">Kiện hàng SPXVN027785417936 của đơn hàng 220624NWSKAR19 đã giao thành công đến bạn.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/565277eec233892490bc426672ab6165_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tham Gia Khảo Sát Giới Trẻ ASEAN</span>
+                                                <span class="header__notify-descriotion">Chúng tôi muốn lắng nghe từ bạn! Tham gia khảo sát từ Diễn Đàn Kinh Tế Thế Giới (World Economic Forum) để hỗ trợ các nhà hoạch định chiến lược thấu hiểu nhu cầu của bạn.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                            <a href="" class="header__navbar-item-link">Đăng ký</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a href="" class="header__navbar-item-link">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- Moda layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body"> 
+            <!-- Authen form -->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với Shoppe về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--with-icon">
+                        <i class="fab fa-facebook-square"></i>
+                        Kết nối với Facebook
+                    </a>
+                    <a href="" class="btn btn--with-icon">
+                        <i class="fab fa-google"></i>
+                        Kết nối với Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
